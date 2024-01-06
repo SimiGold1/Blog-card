@@ -1,0 +1,102 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+    width: 300px;
+    height: 480px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    border: 7px solid hsl(0, 0%, 7%);
+    border-top-width: 2px;
+    border-left-width: 1px;
+  }
+
+  .container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+  }
+  
+  .fact{
+    background-color: hsl(47, 88%, 63%);
+  }
+
+  @font-face {
+    font-family: Figtree-Italic-VariableFont;
+    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+  }
+
+  @font-face {
+    font-family: Figtree-VariableFont;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+  }
+
+  @font-face {
+    font-family: OFL;
+    src: url(./assets/fonts/OFL.txt);
+  }
+
+  h2{
+    text-align: left;
+    font-family: Figtree-VariableFont;
+    font-weight: 800;
+    font-size: large;
+  }
+
+  h2:hover{
+    color:  hsl(47, 88%, 63%);
+    cursor: pointer;
+  }
+
+
+  .main{
+    border-radius: 30px;
+  }
+
+  @media screen and (max-width: 768px){
+    .box{width: 300px;}
+}
+
+  p{
+    text-align: left;
+    font-size: smaller;
+    color:  hsl(0, 0%, 50%);
+    word-spacing: 5px;
+  }
+ 
+  .paragraph-one{
+    text-align: left;
+    font-family: OFL;
+    font-weight: 600;
+    color:hsl(0, 0%, 7%) ;
+  }
+
+  .profile-card{
+    text-align: left;
+font-family: Figtree-Italic-VariableFont;
+font-weight: 800;
+font-size: medium ;
+  }
+
+  .text-box{
+    border: 1px solid hsl(47, 88%, 63%);
+    background-color:hsl(47, 88%, 63%) ;
+    padding: 0;
+    font-family: Figtree-VariableFont;
+    font-size: small;
+    font-weight: 500;
+    width: 80px;
+    height:40px;
+    text-align: center;
+  }
+
+
+  
